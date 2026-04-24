@@ -1,0 +1,11 @@
+File Word đã được tạo xong! Tài liệu gồm 9 chương đầy đủ:
+Cài đặt & Cấu hình — Cài Git, SSH key, cấu hình lần đầu
+Tổng quan — Giới thiệu GitHub, bảng so sánh các loại tài khoản
+Cài đặt & Cấu hình — Cài Git, SSH key, cấu hình lần đầu
+Repository — Tạo repo, clone, .gitignore
+Branch & Commit — Quản lý nhánh, commit message chuẩn, merge/rebase
+Remote & Push — Push/pull, xử lý conflict, undo lỗi
+Pull Request — Quy trình PR, code review, fork open source
+Cộng tác nhóm — Issues, Projects, bảo mật repo
+GitHub Actions — CI/CD, ví dụ workflow thực tế
+Cheat Sheet — Bảng tra cứu 20 lệnh Git quan trọng nhất
