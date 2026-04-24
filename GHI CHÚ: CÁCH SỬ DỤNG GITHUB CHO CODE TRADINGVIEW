@@ -1,0 +1,149 @@
+# 📘 GHI CHÚ: CÁCH SỬ DỤNG GITHUB CHO CODE TRADINGVIEW
+
+---
+
+## 1. GitHub dùng để làm gì?
+
+* Lưu trữ code Pine Script
+* Quản lý phiên bản (version)
+* So sánh & quay lại code cũ
+* Test nhiều ý tưởng mà không mất code
+
+---
+
+## 2. Workflow chuẩn
+
+TradingView (test)
+↓
+Copy code
+↓
+GitHub (commit lưu lại)
+↓
+Tạo branch (test ý tưởng mới)
+↓
+Test lại trên TradingView
+↓
+Chọn bản tốt → merge về main
+
+---
+
+## 3. Commit là gì?
+
+👉 Commit = lưu 1 phiên bản code
+
+Ví dụ:
+
+* v1.0: base strategy
+* v1.1: thêm EMA
+* v1.2: thêm ATR stop
+
+---
+
+## 4. Commit ở đâu?
+
+👉 Nằm ở CUỐI trang khi:
+
+* tạo file mới
+* hoặc chỉnh sửa file
+
+---
+
+## 5. Cách commit đúng
+
+### Commit message (bắt buộc)
+
+Ví dụ:
+
+* v1.0 - MA144 + EMA21 base
+* v1.1 - thêm ATR stop
+* v1.2 - cải thiện entry
+
+### Extended description (không bắt buộc)
+
+Ví dụ:
+
+* Entry theo EMA21
+* Filter MA144
+* Chưa có trailing stop
+
+---
+
+## 6. Chọn option khi commit
+
+### ✔ Commit directly to main
+
+Dùng khi:
+
+* Code đơn giản
+* Giai đoạn đầu
+* Test nhanh
+
+👉 Khuyên dùng ban đầu
+
+---
+
+### ✔ Create a new branch
+
+Dùng khi:
+
+* Test ý tưởng mới
+* Không muốn phá code chính
+
+Ví dụ:
+
+* test-atr
+* test-entry-v2
+
+---
+
+## 7. Khi nào dùng branch?
+
+Khi hệ thống đã ổn định và bắt đầu:
+
+* tối ưu
+* thử nhiều biến thể
+
+Cấu trúc:
+main (ổn định)
+├── test-atr
+├── test-volume
+├── test-entry
+
+---
+
+## 8. Lỗi thường gặp
+
+❌ Không commit → mất code
+❌ Commit không ghi nội dung
+❌ Ghi kiểu:
+
+* update
+* fix
+
+❌ Sửa trực tiếp main khi đang test
+
+---
+
+## 9. Chuẩn commit chuyên nghiệp
+
+v1.0 - base strategy
+v1.1 - add EMA filter
+v1.2 - add ATR stop
+v1.3 - optimize entry
+
+---
+
+## 10. Nguyên tắc vàng
+
+* GitHub = nơi lưu & quản lý code
+* TradingView = nơi test chiến lược
+* Không test trên GitHub
+* Luôn commit sau mỗi thay đổi
+
+---
+
+## 11. Tóm tắt nhanh
+
+Tạo repo → up code → commit → branch → test → merge
+
+---
